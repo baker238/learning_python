@@ -11,9 +11,10 @@ def discounted(price, discount, max_discount=30, phone_name=''):
     else:
         return price - (price * discount / 100)
 new_price =discounted(100000, 10, phone_name='Iphone 12')
-print(new_price)
+print(new_price) #100000
 
 new_price =discounted(70000, 25, phone_name='Samsung')
-print(new_price)
+print(new_price) #52500
+
 new_price= discounted(5000, 5)
-print(new_price)
+print(new_price) #5000
